@@ -1,0 +1,31 @@
+<!-- <div>
+    <img src="./../../../assets/loading.png" *ngIf="!cubos"/>
+    <table class="table table-bordered table-info" *ngIf="cubos">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Color</th>
+                <th scope="col">Imagen</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Valoracion</th>
+                <th></th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cubo of cubos">
+                <th scope="row">{{cubo.nombre}}</th>
+                <td>{{cubo.modelo}}</td>
+                <td>{{cubo.marca}}</td>
+                <td>{{cubo.color}}</td>
+                <td><img style="width: 100px" src="{{cubo.imagen}}"/></td>
+                <td>{{cubo.precio}}</td>
+                <td>{{cubo.valoracion}}</td>
+        <td>
+            <a class="btn btn-warning" [routerLink]="['/comprar/', cubo.idCubo]">Ver comentarios</a>
+        </td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
